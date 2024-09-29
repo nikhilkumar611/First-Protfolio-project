@@ -1,0 +1,93 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+body{
+   background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#navlist{
+   /* border: 2px solid white;*/
+    display: inline-block;
+    padding-left: 500px;
+    padding-top: 30px;
+}
+#navlist a{
+    margin: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+#navlist a:hover{
+color: salmon;
+transition: all 0.3s;
+
+
+}
+#page1{
+   /* border: 2px solid white;*/
+    height: 500px;
+    width: 700px;
+    padding-top: 60px;
+    padding-left: 40px;
+}
+#page1 h3{
+    /*border: 2px solid green;*/
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 0px 40px;
+}
+#page1 h1{
+   /* border: 2px solid white;*/
+    color: rgb(52, 152, 246);
+    font-size: 160px;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+#page1 p{
+    color: white;
+   /* border: 2px solid yellow;*/
+    font-size: 20px;
+    width: 900px;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+ #page1>button{
+    /*border: 5px solid rgb(255, 255, 255);*/
+    color: rgb(17, 17, 17);
+    width: 150px;
+    height: 50px;
+    padding-left: 10px;
+   border-radius: 50px;
+   font-size: larger;
+   margin-left: 120px;
+   margin-top: 90px;
+}
+#page1>button:hover{
+    background-color: blue;
+}
+
+#page2{
+   /*border: 2px solid white;*/
+    width: 100px;
+}
+#page2 img{
+    border: 8px solid rgb(0, 213, 255);
+    border-radius: 80px;
+    position: absolute;
+    left: 1000px;
+    top: 130px;
+}
